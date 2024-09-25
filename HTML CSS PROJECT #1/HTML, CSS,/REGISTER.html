@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HACI-UAP</title>
+  <link rel="stylesheet" href="REGISTER.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">SoF</a>
+    <ul class="navlist">
+      <li><a href="HACI.html">Home</a></li>
+      <li><a href="FAN-ART.html">Fan Art</a></li>
+      <li><a href="CHARACTER.html">Characters</a></li>
+      <li><a href="https://store.steampowered.com/app/1244090/Sea_of_Stars/" target="_blank">Download</a></li>
+      <li><a href="#">Sign Up</a></li>
+      <li class="search-box"> <input type="text" placeholder="Search.."></li>
+    </ul>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <form id="register-form">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" id="name"/>
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" id="email"/>
+    </div>
+
+    <div class="form-group">
+        <label>Date of Birth</label>
+        <input type="date" id="date">
+    </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="password">
+    </div>
+
+    <div class="form-group">
+        <label>Confirm Password</label>
+        <input type="password" id="confirm">
+    </div>
+
+    <div style="margin-top :2rem">
+    <input type="checkbox" id="agree-term">
+    <label for="agree-term">
+        I agree with the terms and condition.
+    </label>
+    </div>
+
+    <div class="tombol-login" style="margin-top :2rem">
+     <label>
+            Already have an account? click here > <a href="login.html">Login</a>
+        </label>
+    </div>
+
+    <ul id="error">
+
+    </ul>
+
+    <input type="submit" class="form-btn">
+    
+</form>
+  
+<script>
+  var menuIcon = document.getElementById('menu-icon');
+  var navList = document.querySelector('.navlist');
+
+  menuIcon.addEventListener('click', function() {
+    navList.classList.toggle('active');
+  });
+</script>
+</body>
+</html>
