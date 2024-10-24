@@ -1,5 +1,9 @@
 # Sea of Ftars
 
+![gambar](https://github.com/user-attachments/assets/8aa61d93-1e6f-472c-b0ea-221082ebe9c1)
+
+![gambar](https://github.com/user-attachments/assets/45820ccf-c931-4646-aed6-5e913150c6f5)
+
 ## Project Overview
 **Sea of Ftars** is a classic-inspired turn-based RPG that features a variety of unique hero combinations and an intriguing storyline. This project showcases a prototype for a game website designed to engage players with its immersive content.
 
